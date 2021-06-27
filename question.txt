@@ -1,0 +1,161 @@
+# html
+
+1. What is the need of mentioning <!DOCTYPE HTML> at the beginning of an HTML page?
+The <!DOCTYPE HTML> indicates the version of HTML which in this case is 5. The earlier versions like HTML4 were based on Standard Generalized Markup Language (SGML) and required a Document Type Definition (DTD). HTML5 however, is not based on SGML and doesn’t need a DTD.
+
+2. List out the new Structural Elements in HTML5.
+HTML5 introduced few structural elements to define different parts of a web page like article, header, footer, main, mark and many more.
+
+These are sections in which a web page is usually divided into. In HTML4, the same was implemented using div with an id/class name to it.
+
+3. What is the use of the article tag?
+It defines space for an article that is independently distributable. For example, A magazine or newspaper article.
+
+4. How can we produce a horizontal line on a webpage?
+A horizontal line can be produced on a web page using the <hr> tag. The other point to note about the hr tag is that it doesn’t have an end tag as most of the HTML tags do.
+
+5. Why is the div tag so useful in developing HTML web pages?
+The HTML div tag (ie <div>...</div>) is used to create a section of a web page. It can hold another sections or elements in it. It is also possible to hold direct text in it, but not the one that is used.
+
+6. Define the types of HTML Headings.
+HTML holds 6 types of headings starting from h1 to h6. The heading one (h1) is the maximum font and h6 is the minimum font.
+
+7. How can we group heading elements?
+All the heading tags or elements can be grouped together in hgroup tag:
+
+<hgroup>
+
+<h1>Main heading</h1>
+
+<h2>Subheading</h2>
+
+</hgroup>
+
+8. Define span tag.
+A span tag is similar to div section but is used to divide the screen into even smaller sections. <span>...</span>
+
+9. Define Meta tags.
+Meta tags are the tags that provide more information to our web pages. Some of the tags that are examples for meta are:
+
+Link: Defines a relation between the web page and an external source.
+
+Style: Inserts styles (CSS) details to the web page.
+
+Title: Provides a title to the web page.
+
+You may also like:  Top 5 Skills That Make You A Sure Shot Programmer
+
+10. What are the most commonly used List tags?
+The list tags are used to list out any information. There are types in listing out the information using the tags, these are:
+
+Ordered List: Used as <ol>...</ol> and provides the list in a numbered format.
+
+Unordered List: Used as <ul>...</ul> and provides the list in a bullet format.
+
+NOTE: both the above use list item tags ie <li>...</li> in them
+
+Definition List: Used as <dl>...</dl> which provides a list in it and takes Definition Term (ie <dt>...</dt>) and a detailed definition (ie <dd>...</dd>).
+
+11. What is the best way to group form elements?
+The <fieldset> tag can be used to group some of the form elements. When the purpose is to provide some HTML elements as a group to the user then, fieldset tag is the best one to use. It takes another tag in it <legend> which provides a title to the grouped elements.
+
+12. List few input type attributes that are new in HTML5.
+An input tag can take some attributes based on the requirement. ie <input type=”text”> creates a textbox that takes text/number/special characters into it. The attribute type can take more values, these are:
+
+Datetime: Gives a datetime accepted textbox.
+
+Placeholder: Places an editable text in the textbox.
+
+Number: Takes only numbers and no text and special characters.
+
+Tel: Takes inputs like a telephone number.
+
+Email: Takes text with email format.
+
+13. How is it possible to insert a copyright symbol in a web page?
+As there is no direct key to type and insert the copyright symbol in a web page, it has to be given by combining different characters. This can be done in multiple ways like:
+
+&copy.
+
+& #169.
+
+14. What is a hyperlink?
+A hyperlink is a text/image on a webpage, which when clicked redirects to a new webpage.
+
+15. Explain the type and value attributes for a list item (ie <li>).
+The type attribute helps to change the listing/numbering of the list items. It is also used to change the numbering index the value attribute is used.
+
+16. Describe the way in which color can be applied to an element in an HTML page.
+HTML elements can be colored in three ways:
+
+Color name ie red/blue etc.
+
+Hex Color ie #efefef, and
+
+RGB(10,234,128) which is a combination of red, green, blue.
+
+17. Explain the two web storage in HTML5.
+In HTML 5 data storage can be done in two ways:
+
+Session Storage: The current session (i.e., a user who is browsing the website) details are stored. Once the user closes the browser, the storage is cleared.
+
+Local Storage: Data stored in local storage will not be cleared automatically or when the user closes the browser.
+
+18. Explain Graphics in HTML5.
+HTML5 has two types of providing graphics, SVG and Canvas. SVG is helpful when using devices like tablets, iPads etc. Whereas, Canvas is an area in the document or HTML page where graphics can be drawn.
+
+You may also like:  Top 40 Spring Interview Questions and Answers (Updated for 2018)
+
+19. What are the Server-Sent Events (SSE)?
+The events that come from the server to the browser are termed as Server Side Events.
+
+20. List out the new attributes provided in HTML5 for the form tag.
+HTML5 has introduced two new attributes for the form tag which are:
+
+autocomplete.
+
+non-validate.
+
+21. What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?
+The form attribute novalidate is a Boolean type which takes true/false values. If disabled or made false, the form data is not validated when submitted.
+
+22. Why do we need to autocomplete attribute for the form tag?
+The autocomplete attribute is usually applied to text boxes with which the user can fill the textboxes with the previous values given to it.
+
+23. How can you hide  HTML source code?
+It is not possible to hide the HTML source code as the browser needs to understand the code.
+
+24. How can a static HTML page redirect the visited a new page?
+The meta tag has an attribute called URL which takes you to a redirected link.
+
+25. What is Cell Padding?
+Cell Padding refers to the space between the cell wall and cell border.
+
+26. What are the different kinds of Doctypes available?
+The three kinds of Doctypes which are available:
+
+Strict Doctype
+
+Transitional Doctype
+
+Frameset Doctype
+
+27. How do we comment HTML code in an HTML page?
+HTML code can be commented using <!-- all the code written here will be commented -->
+
+28. List the API’s available in HTML5.
+The available API’s in HTML are:
+
+DOM Level 1
+
+DOM Level 2 Core
+
+DOM Level 2 HTML
+
+DOM Level 3
+
+29. Explain Application Cache.
+Application Cache is a mechanism in which the web applications can also run offline. One of the advantages of using the application cache is that the resources load faster.
+
+30. When do we use a meter tag?
+This tag is also known as a gauge and is used to define a scalar measurement which is in a known range.
